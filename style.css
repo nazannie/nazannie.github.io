@@ -1,0 +1,241 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+    box-sizing: border-box;
+}
+
+html body {
+	background: black;
+	width: 1440px;
+	overflow-x: hidden;
+}
+
+.container {
+	position: relative;
+	width: 50%;
+}
+
+.container img {
+	width:1440px;
+	height: 740px;
+}
+
+.container #btn {
+	position: absolute;
+	top: 85%;
+	left: 800px;
+	transform: (translate(-50%, 50%));
+	-ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container #btn:hover {
+	background-color: red;
+}
+
+.container #skls {
+	position: absolute;
+	top: 85%;
+	left: 950px;
+	transform: (translate(-50%, 50%));
+	-ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container #skls:hover {
+	background-color: red;
+}
+
+.container #srvc {
+	position: absolute;
+	top: 85%;
+	left: 1100px;
+	transform: (translate(-50%, 50%));
+	-ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container #srvc:hover {
+	background-color: red;
+}
+
+.container #cnts {
+	position: absolute;
+	top: 85%;
+	left: 1250px;
+	transform: (translate(-50%, 50%));
+	-ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container #cnts:hover {
+	background-color: red;
+}
+
+.container #cv {
+	position: absolute;
+	top: 85%;
+	left: 50px;
+	transform: (translate(-50%, 50%));
+	-ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container #cv:hover {
+	background-color: red;
+}	
+
+#about {
+    box-shadow: 0px 0.2px 2px 2px rgb(118, 24, 35);
+    padding: 20px 20px 20px;
+    margin: 0;
+    border: 0;
+    background-color: black;
+    color: #555;
+}
+
+#skills {
+	padding: 20px 200px 20px;
+}
+
+#html-logo {
+	width: 250px;
+	margin: 0px 40px;
+}
+
+#html-logo:hover {
+	width:280px;
+	background-color: #202020;
+	border-radius: 10%; 
+} 
+
+#css-logo {
+	width: 250px;
+	margin: 0px 40px;
+
+}
+
+#css-logo:hover {
+	width:280px;
+	background-color: #202020;
+	border-radius: 10%;  
+} 
+
+#JS-logo {
+	width: 250px;
+	margin: 0px 40px;
+}
+
+#JS-logo:hover {
+	width:280px;
+	background-color: #202020; 
+	border-radius: 10%; 
+} 
+
+#ps-logo {
+	width: 200px;
+	margin: 0px 100px;
+}
+
+#ps-logo:hover {
+	width:230px; 
+	border-radius: 10%; 
+} 
+
+#ai-logo {
+	width: 200px;
+	margin:0px 100px;
+}
+
+#ai-logo:hover {
+	width:230px; 
+	border-radius: 10%; 
+} 
+
+.skills2 {
+	padding: 40px 300px 0px;
+}
+
+.services-title {
+	width: 140px;
+	box-shadow: 0px 1px rgb(255,255,255);
+    padding: 20px 20px 20px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: 50px 650px 100px;
+    font-size: 66px;
+    font-family: monospace;
+
+}
+
+.services-text {
+	color:#555;
+	font-size: 26px;
+	display: flex;
+	justify-content: center;
+	list-style-type:square;
+}
+
+.lists {
+	list-style-type:square;
+	margin: 0px 150px 100px;
+}
+
+#web-list {
+	box-shadow: 1px 0px #555;
+	height: 100px; 
+    display: flex;
+    justify-content: center;
+}
+
+.page-section {
+	width: 100%;
+	padding: 10px;
+	margin: 0;
+}
+
+
+#contact-me {
+    text-align: right;
+	color: white;
+	padding: 1px;
+	border: 0;
+	margin: 0;
+}
+#copyright {
+	width: 15px;
+	height: 15px;
+	margin-top: 3px ;
+}

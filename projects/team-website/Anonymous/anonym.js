@@ -20,7 +20,7 @@ navSlide();
 const call = document.querySelector("#call");
 
 call.addEventListener("click", () => {
-  alert({ Ani: "+37496500056", Hayk: "+37493155973" });
+  alert("Ani: +37496500056 Hayk: +37493155973");
 });
 
 let i = 0;
@@ -35,4 +35,4 @@ function typingTitle() {
 }
 typingTitle();
 
-document.getElementById("")
+document.getElementById("");
